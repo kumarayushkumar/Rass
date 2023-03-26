@@ -1,3 +1,3 @@
-# 🍑 Rass 
-## Rass = React + Sass
+# 🍑 Rtass 
+## Rtass = React+Typescript+Sass
 ### Library for faster development

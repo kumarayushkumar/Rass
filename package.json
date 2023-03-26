@@ -1,7 +1,7 @@
 {
-  "name": "rass",
+  "name": "rtass",
   "version": "0.0.10",
-  "description": "Rass = React + Sass component library",
+  "description": "Rtass = React+Typescript+Sass component library",
   "scripts": {
     "test": "jest",
     "rollup": "rollup -c"
@@ -39,11 +39,6 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kumarayushkumar",
-    "access": "public"
-  }
-  
+  "types": "dist/index.d.ts"
 }
  
