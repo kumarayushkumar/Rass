@@ -1,5 +1,5 @@
 import React from 'react';
-// import './Button.scss';
+// import '../../scss/index.scss'
 
 interface ISmartOwn<E extends React.ElementType> {
   componentType: E;
