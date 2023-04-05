@@ -1,5 +1,4 @@
 import React from 'react';
-// import '../../scss/index.scss'
 
 interface ISmartOwn<E extends React.ElementType> {
   componentType: E;
