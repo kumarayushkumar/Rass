@@ -3,12 +3,13 @@ import RSmart from '../RSmart/RSmart';
 
 interface IButtonProps {
   className?: string;
+  buttonProps?: React.ButtonHTMLAttributes<HTMLButtonElement>;
   children?: React.ReactNode;
 }
 
-const RButton = ({ className, children, ...args }: IButtonProps) => {
+const RButton = ({ className, children, buttonProps }: IButtonProps) => {
   return (
-    <RSmart {...args} componentType="button" className={className}>
+    <RSmart {...buttonProps} componentType="button" className={className}>
       {children}
     </RSmart>
   );
