@@ -1,7 +1,7 @@
 import React from 'react';
 import RSmart from '../RSmart/RSmart';
 
-interface IButtonProps {
+export interface IButtonProps {
   className?: string;
   buttonProps?: React.ButtonHTMLAttributes<HTMLButtonElement>;
   children?: React.ReactNode;
