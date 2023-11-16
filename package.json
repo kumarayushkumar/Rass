@@ -1,6 +1,6 @@
 {
-  "name": "@kumarayushkumar/rtass",
-  "version": "1.0.1",
+  "name": "rtass",
+  "version": "1.0.3",
   "description": "Rtass = React+Typescript+Sass component library",
   "scripts": {
     "test": "jest",
@@ -59,9 +59,6 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@kumarayushkumar/sasslib": "^1.0.3"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/kumarayushkumar"
+    "sassay": "^1.0.6"
   }
 }
